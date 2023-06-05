@@ -1,0 +1,31 @@
+@import "src/assets/style/type-list.scss";
+@import "@/assets/style/el-dialog.scss";
+.el-popper.is-light.el-popover:has(.type-grid) {
+  background-color: #dadada;
+  padding: 4px;
+}
+
+.el-popper.is-light.el-popover:has(.type-grid) .el-popper__arrow::before {
+  background-color: #dadada;
+}
+
+.el-popper.is-light.el-popover:has(.timer-tip-layout) {
+  padding: 6px;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  .menu-container {
+    background-color: #e4e4e4;
+    width: 280px;
+    padding: 30px 8px 0;
+    position: relative;
+  }
+
+  .content-container {
+    flex: 1;
+  }
+}
